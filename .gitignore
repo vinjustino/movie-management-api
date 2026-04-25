@@ -1,8 +1,8 @@
 # ===============================
 # Config local (sensível)
 # ===============================
-src/main/resources/application-local.yml
-application-local.yml
+src/main/resources/application-local.yaml
+application-local.yaml
 
 # ===============================
 # Build (Maven/Gradle)
