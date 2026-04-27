@@ -3,5 +3,5 @@ CREATE TABLE movie (
     title VARCHAR(255) NOT NULL,
     description TEXT,
     release_date DATE,
-    rating NUMERIC,
+    rating NUMERIC
 );
