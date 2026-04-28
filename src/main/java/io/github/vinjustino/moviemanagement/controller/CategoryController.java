@@ -28,4 +28,9 @@ public class CategoryController {
     public Category getById(@PathVariable Long id){
         return categoryService.findById(id);
     }
+
+    @PutMapping("/{id}")
+    public Category update(@PathVariable Long id, @RequestBody Category category) {
+        return categoryService.update(id, category);
+    }
 }
