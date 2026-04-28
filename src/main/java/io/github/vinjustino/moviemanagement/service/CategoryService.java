@@ -32,4 +32,8 @@ public class CategoryService {
         existingCategory.setName(category.getName());
         return categoryRepository.save(existingCategory);
     }
+
+    public void delete(Long id) {
+        categoryRepository.deleteById(id);
+    }
 }
