@@ -5,6 +5,8 @@ import io.github.vinjustino.moviemanagement.repository.CategoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @RequiredArgsConstructor
 public class CategoryService {
@@ -13,5 +15,9 @@ public class CategoryService {
 
     public Category create(Category category) {
         return categoryRepository.save(category);
+    }
+
+    public List<Category> findAll() {
+        return categoryRepository.findAll();
     }
 }
