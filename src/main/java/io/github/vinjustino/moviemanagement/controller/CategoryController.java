@@ -23,4 +23,9 @@ public class CategoryController {
     public List<Category> getALl() {
         return categoryService.findAll();
     }
+
+    @PutMapping("/{id}")
+    public Category getById(@PathVariable Long id){
+        return categoryService.findById(id);
+    }
 }
