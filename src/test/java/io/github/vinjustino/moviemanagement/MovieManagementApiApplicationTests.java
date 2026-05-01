@@ -9,4 +9,5 @@ class MovieManagementApiApplicationTests {
 	@Test
 	void contextLoads() {
 	}
+
 }
