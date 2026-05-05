@@ -1,0 +1,84 @@
+# ===============================
+# Config local (sensível)
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Build (Maven)
+# ===============================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# ===============================
+# Artefatos
+# ===============================
+*.class
+*.ctxt
+.mtj.tmp
+*.jar
+*.war
+*.ear
+lib/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# ===============================
+# IntelliJ IDEA
+# ===============================
+.idea/
+*.iml
+*.iws
+
+# ===============================
+# Docker
+# ===============================
+docker-compose.override.yaml
+
+# ===============================
+# Testes / Cobertura
+# ===============================
+.jacoco/
+jacoco.exec
+coverage/
+*.exec
+*.ec
+
+# ===============================
+# Sistema (Linux)
+# ===============================
+*~
+.nfs*
+.fuse_hidden*
+.Trash-*
+.directory
+
+# ===============================
+# Sistema (outros)
+# ===============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===============================
+# Compactados
+# ===============================
+*.zip
+*.tar.gz
+*.tgz
+*.rar
