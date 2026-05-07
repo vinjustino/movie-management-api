@@ -25,7 +25,7 @@ A aplicação será executada via Docker, sem necessidade de instalar Java ou Ma
 
 ## 📌 Roadmap
 
-- [ ] Configuração inicial do projeto
+- [x] Configuração inicial do projeto
 - [ ] CRUD de filmes
 - [ ] CRUD de categorias
 - [ ] CRUD de plataformas de streaming
@@ -34,4 +34,4 @@ A aplicação será executada via Docker, sem necessidade de instalar Java ou Ma
 
 ## 🚧 Status
 
-🚧 Em desenvolvimento inicial (setup e estrutura base)
+🚧 Em desenvolvimento ativo.
